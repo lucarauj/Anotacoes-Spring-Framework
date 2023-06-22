@@ -1,4 +1,8 @@
-# Anotacoes-Spring-Framework
+[![NPM](https://img.shields.io/npm/l/react)](https://github.com/lucarauj/Anotacoes-Spring-Framework/blob/main/LICENSE)
+
+<h1 align="center">Anotações Spring Framework</h1>
+
+<p align="center"><img width="400px" src="https://github.com/lucarauj/assets/blob/main/Spring.png" /></p>
 
 - @Autowired: delega ao Spring a injeção de dependência e inicialização do objeto.
 - @AllArgsConstructor: gera automaticamente um construtor com todos os atributos da classe.
@@ -123,6 +127,8 @@
 - @Valid: Indica que o valor do objeto virá do corpo da requisição e precisa ser validado de acordo com as regras de validação definidas.
 - @Value: Fornece uma maneira de injetar valores de propriedades em componentes.
 - @WithMockUser: Permite a execução de testes usando um usuário fictício autenticado.
+
+<br>
 
 ## 👨‍🎓 Autor
 
