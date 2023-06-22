@@ -133,11 +133,12 @@
 
 ## 📜 M
 
+- @Min: Usada para aplicar validações de valor mínimo a propriedades de um objeto.
 - @Modifying: Informa ao Spring Data que a consulta anotada com @Query é uma operação de escrita (atualização, exclusão, etc.) e não uma consulta de leitura.
 - @Mock: Cria um objeto simulado (mock) usado para testes com o Mockito.
 - @MockBean: Cria um objeto simulado (mock) de uma classe ou interface e o adiciona ao contexto de aplicação para uso em testes.
 - @ManyToOne: Especifica um relacionamento de banco de dados muitos-para-um.
-- @ManyToMany: Especifica um relacionamento de banco de dados muitos-para-muitos, onde muitos registros de uma entidade estão relacionados com muitos registros de outra entidade
+- @ManyToMany: Especifica um relacionamento de banco de dados muitos-para-muitos, onde muitos registros de uma entidade estão relacionados com muitos registros de outra entidade.
 
 ## 📜 N
 
