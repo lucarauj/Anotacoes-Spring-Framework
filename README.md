@@ -83,6 +83,7 @@
 - @EmbeddedId: Especifica que o identificador de entidade é um tipo incorporável.
 - @EnableFeignClients: Habilita o uso do Feign na aplicação.
 - @EnableCaching: Ativa o cache na aplicação.
+- @EnableFeignClients: habilita o processo de criação automática de clientes Feign a partir das interfaces marcadas com @FeignClient.
 - @EnableWebSecurity: Habilita recursos de segurança em uma aplicação.
 - @EnableGlobalMethodSecurity: Habilita o uso de anotações com regras de segurança.
 - @EnableR2dbcAuditing: Configura o mecanismo de auditoria no contexto do Spring para uso com R2DBC.
@@ -139,6 +140,7 @@
 
 - @Min: Usada para aplicar validações de valor mínimo a propriedades de um objeto.
 - @Modifying: Informa ao Spring Data que a consulta anotada com @Query é uma operação de escrita (atualização, exclusão, etc.) e não uma consulta de leitura.
+- @Modifying(clearAutomatically = true): indica ao Spring Data JPA que a consulta resultará em uma modificação no banco de dados e que o contexto de persistência deve ser limpo automaticamente após a execução da consulta.
 - @Mock: Cria um objeto simulado (mock) usado para testes com o Mockito.
 - @MockBean: Cria um objeto simulado (mock) de uma classe ou interface e o adiciona ao contexto de aplicação para uso em testes.
 - @ManyToOne: Especifica um relacionamento de banco de dados muitos-para-um.
