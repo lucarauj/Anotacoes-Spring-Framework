@@ -34,13 +34,14 @@
 
 ## 📜 A
 
-- @Autowired: delega ao Spring a injeção de dependência e inicialização do objeto.
-- @AllArgsConstructor: gera automaticamente um construtor com todos os atributos da classe.
+- @ActiveProfiles("test"): sobrescreve as propriedades definidas no arquivo application.properties ao executar os testes, usando o perfil "test".
 - @AfterAll: indica que o método será executado depois de todos os testes em uma classe de teste.
 - @AfterEach: indica que o método será executado depois de cada teste em uma classe de teste.
+- @AllArgsConstructor: gera automaticamente um construtor com todos os atributos da classe.
+- @Autowired: delega ao Spring a injeção de dependência e inicialização do objeto.
 - @AutoConfigureMockMvc: injeta o objeto MockMvc no contexto da aplicação para testes de integração.
 - @AutoConfigureJsonTesters: habilita e configura automaticamente os testadores de JSON para os testes.
-- @ActiveProfiles("test"): sobrescreve as propriedades definidas no arquivo application.properties ao executar os testes, usando o perfil "test".
+
 
 ## 📜 B
 
@@ -50,7 +51,9 @@
 
 ## 📜 C
 
+- @Captor: captura argumentos de um método para uso em testes.
 - @Cacheable: permite que o resultado de um método seja armazenado em cache pelo Spring para evitar a execução repetida do método com os mesmos parâmetros.
+- @CircuitBreaker: habilita o padrão de circuit breaker em um método de um aplicativo Spring.
 - @CPF: anotação que valida se um valor numérico passado corresponde a um número de CPF válido.
 - @CollectionTable: usada para mapear uma tabela de coleção em uma entidade.
 - @Column: especifica o mapeamento entre um atributo de entidade básico e a coluna correspondente na tabela de banco de dados.
@@ -61,7 +64,6 @@
 - @ControllerAdvice: permite manipular exceções globalmente em um aplicativo Spring.
 - @CreatedDate: recurso de auditoria fornecido pelo Spring Data JPA que rastreia a data de criação de uma entidade.
 - @CrossOrigin: permite a comunicação entre domínios para métodos manipuladores de solicitações.
-- @Captor: captura argumentos de um método para uso em testes.
 
 ## 📜 D
 
@@ -93,6 +95,8 @@
 - @EnableOnOs(): Executa o método se os parâmetros informados relacionados ao sistema operacional forem verdadeiros.
 - @EnableOnJre(): Executa o método se os parâmetros informados relacionados à JRE forem verdadeiros.
 - @EnableForJreRange(): Executa o método se os parâmetros informados relacionados às versões da JRE forem verdadeiros.
+- @EnableEurekaServer: permite que o aplicativo funcione como um servidor de registro para outros serviços.
+- @EnableEurekaClient: permite que o aplicativo se registre em um servidor Eureka e utilize a descoberta de serviços fornecida pelo Eureka.
 - @ExtendWith(MockitoExtension.class): Permite o uso do Mockito como uma extensão para o framework de teste, fornecendo recursos adicionais para criação e uso de objetos simulados (mocks) durante os testes.
 - @ExceptionHandler: Permite que um método trate uma exceção específica quando ela é lançada.
 
