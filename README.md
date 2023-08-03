@@ -145,6 +145,7 @@
 - @MockBean: Cria um objeto simulado (mock) de uma classe ou interface e o adiciona ao contexto de aplicação para uso em testes.
 - @ManyToOne: Especifica um relacionamento de banco de dados muitos-para-um.
 - @ManyToMany: Especifica um relacionamento de banco de dados muitos-para-muitos, onde muitos registros de uma entidade estão relacionados com muitos registros de outra entidade.
+- @MappedSuperclass: Usada em classes que contêm campos e métodos que devem ser herdados por entidades filhas.
 
 ## 📜 N
 
