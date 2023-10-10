@@ -63,6 +63,7 @@
 - @ConvertGroup(from = Default.class, to = ValidationGroups.{parameter}.class): converte de um "grupo de validação" para outro.
 - @ControllerAdvice: permite manipular exceções globalmente em um aplicativo Spring.
 - @CreatedDate: recurso de auditoria fornecido pelo Spring Data JPA que rastreia a data de criação de uma entidade.
+- @CreationTimestamp: registra automaticamente a data e hora em que uma entidade é criada no banco de dados.
 - @CrossOrigin: permite a comunicação entre domínios para métodos manipuladores de solicitações.
 
 ## 📜 D
