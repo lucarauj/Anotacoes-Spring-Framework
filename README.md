@@ -214,6 +214,7 @@
 - @TestMethodOrder(MethodOrderer.Random.class): Executa os testes em ordem aleatória.
 - @TestMethodOrder(MethodOrderer.DisplayName.class): Executa os testes em ordem especificada pela anotação @DisplayName().
 - @Transactional: Utilizada nos métodos que requerem transações, garantindo que as operações sejam executadas atomicamente.
+- @Transient: Indica que um campo não deve ser persistido na base de dados.
 
 ## 📜 V
 
