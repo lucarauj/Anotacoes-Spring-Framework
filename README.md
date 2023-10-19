@@ -329,6 +329,8 @@
 >*Mapeia solicitações da web para classes manipuladoras específicas e métodos manipuladores.*
 - @RequestParam:
 >*Mapeia os parâmetros HTTP para argumentos de métodos.*
+- @Required:
+>*usada para marcar uma propriedade de bean como obrigatória, exigindo que ela seja definida por meio de injeção de dependência, podendo causar uma exceção de configuração se não for configurada.*
 - @RequiredArgsConstructor:
 >*Cria um construtor com todos os atributos finais da classe automaticamente.*
 - @ResponseBody:
