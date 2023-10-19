@@ -100,305 +100,307 @@
 ## 📜 D
 
 - @Data:
->*Gera o código padronizado (getters, setters, toString apropriado, equals e implementações hashCode) para os campos de uma classe.*
+>*gera o código padronizado (getters, setters, toString apropriado, equals e implementações hashCode) para os campos de uma classe.*
 - @DataJpaTest:
->*Usada para testar uma interface Repository em um ambiente de teste.*
+>*usada para testar uma interface Repository em um ambiente de teste.*
 - @DisplayName("String"):
->*Usada para fornecer um nome personalizado para a classe de teste ou método de teste.*
+>*usada para fornecer um nome personalizado para a classe de teste ou método de teste.*
 - @DeleteMapping:
->*Usada para mapear solicitações HTTP DELETE para métodos manipuladores específicos.*
+>*usada para mapear solicitações HTTP DELETE para métodos manipuladores específicos.*
 - @DecimalMin:
->*Especifica que a propriedade decorada com essa anotação deve ter um valor maior ou igual ao mínimo especificado.*
+>*especifica que a propriedade decorada com essa anotação deve ter um valor maior ou igual ao mínimo especificado.*
 - @DisplayName():
->*Nomeia um teste.*
+>*nomeia um teste.*
 - @DisableIfEnvironmentVariable():
->*Executa o método se as variáveis de ambiente fornecidas forem falsas.*
+>*executa o método se as variáveis de ambiente fornecidas forem falsas.*
 
 <br>
 
 ## 📜 E
 
 - @EqualsAndHashCode:
->*Gera automaticamente os métodos equals e hashCode para os campos do objeto.*
+>*gera automaticamente os métodos equals e hashCode para os campos do objeto.*
 - @Embeddable:
->*Especifica que um tipo é incorporável e será gerenciado pela entidade proprietária.*
+>*especifica que um tipo é incorporável e será gerenciado pela entidade proprietária.*
 - @Embedded:
->*Especifica que um determinado atributo de entidade representa um tipo incorporável.*
+>*especifica que um determinado atributo de entidade representa um tipo incorporável.*
 - @EmbeddedId:
->*Especifica que o identificador de entidade é um tipo incorporável.*
+>*especifica que o identificador de entidade é um tipo incorporável.*
 - @EnableFeignClients:
->*Habilita o uso do Feign na aplicação.*
+>*habilita o uso do Feign na aplicação.*
 - @EnableCaching:
->*Ativa o cache na aplicação.*
+>*ativa o cache na aplicação.*
 - @EnableFeignClients:
 >*habilita o processo de criação automática de clientes Feign a partir das interfaces marcadas com @FeignClient.*
 - @EnableWebSecurity:
->*Habilita recursos de segurança em uma aplicação.*
+>*habilita recursos de segurança em uma aplicação.*
 - @EnableGlobalMethodSecurity:
->*Habilita o uso de anotações com regras de segurança.*
+>*habilita o uso de anotações com regras de segurança.*
 - @EnableR2dbcAuditing:
->*Configura o mecanismo de auditoria no contexto do Spring para uso com R2DBC.*
+>*configura o mecanismo de auditoria no contexto do Spring para uso com R2DBC.*
 - @Enumerated(EnumType.STRING):
->*Especifica que a representação de uma enumeração será armazenada como uma String na coluna correspondente na tabela do banco de dados.*
+>*especifica que a representação de uma enumeração será armazenada como uma String na coluna correspondente na tabela do banco de dados.*
 - @ElementCollection:
->*Especifica que um campo representa uma coleção de elementos embutidos ou básicos.*
+>*especifica que um campo representa uma coleção de elementos embutidos ou básicos.*
 - @ElementCollection(fetch = FetchType.EAGER):
->*Especifica que a coleção de elementos embutidos ou básicos deve ser buscada imediatamente.*
+>*especifica que a coleção de elementos embutidos ou básicos deve ser buscada imediatamente.*
 - @Entity:
->*Especifica que a classe anotada representa uma entidade.*
+>*especifica que a classe anotada representa uma entidade.*
 - @Email:
->*Verifica se o valor de um campo possui as características de um endereço de e-mail.*
+>*verifica se o valor de um campo possui as características de um endereço de e-mail.*
 - @EnableIfEnvironmentVariable():
->*Executa o método se as variáveis de ambiente fornecidas forem verdadeiras.*
+>*executa o método se as variáveis de ambiente fornecidas forem verdadeiras.*
 - @EnableOnOs():
->*Executa o método se os parâmetros informados relacionados ao sistema operacional forem verdadeiros.*
+>*executa o método se os parâmetros informados relacionados ao sistema operacional forem verdadeiros.*
 - @EnableOnJre():
->*Executa o método se os parâmetros informados relacionados à JRE forem verdadeiros.*
+>*executa o método se os parâmetros informados relacionados à JRE forem verdadeiros.*
 - @EnableForJreRange():
->*Executa o método se os parâmetros informados relacionados às versões da JRE forem verdadeiros.*
+>*executa o método se os parâmetros informados relacionados às versões da JRE forem verdadeiros.*
 - @EnableEurekaServer:
 >*permite que o aplicativo funcione como um servidor de registro para outros serviços.*
 - @EnableEurekaClient:
 >*permite que o aplicativo se registre em um servidor Eureka e utilize a descoberta de serviços fornecida pelo Eureka.*
 - @ExtendWith(MockitoExtension.class):
->*Permite o uso do Mockito como uma extensão para o framework de teste, fornecendo recursos adicionais para criação e uso de objetos simulados (mocks) durante os testes.*
+>*permite o uso do Mockito como uma extensão para o framework de teste, fornecendo recursos adicionais para criação e uso de objetos simulados (mocks) durante os testes.*
 - @ExceptionHandler:
->*Permite que um método trate uma exceção específica quando ela é lançada.*
+>*permite que um método trate uma exceção específica quando ela é lançada.*
 
 <br>
 
 ## 📜 F
 
 - @FeignClient:
->*Injeta o cliente no contexto do Spring para facilitar a comunicação com serviços HTTP.*
+>*injeta o cliente no contexto do Spring para facilitar a comunicação com serviços HTTP.*
 - @Future:
->*Define que a variável só pode receber uma data futura.*
+>*define que a variável só pode receber uma data futura.*
 
 <br>
 
 ## 📜 G
 
 - @GeneratedValue(GenerationType.AUTO):
->*Estratégia padrão para geração de valores de identificador. A JPA escolhe a estratégia mais apropriada com base no banco de dados configurado para a aplicação.*
+>*estratégia padrão para geração de valores de identificador. A JPA escolhe a estratégia mais apropriada com base no banco de dados configurado para a aplicação.*
 - @GeneratedValue(GenerationType.SEQUENCE):
->*Utiliza uma sequência no banco de dados para gerar os valores dos identificadores. É necessário adicionar a anotação @SequenceGenerator para configurar a sequência.*
+>*utiliza uma sequência no banco de dados para gerar os valores dos identificadores. É necessário adicionar a anotação @SequenceGenerator para configurar a sequência.*
 - @GeneratedValue(GenerationType.IDENTITY):
->*Usada quando o banco de dados suporta colunas autoincrementais, como AUTO_INCREMENT no MySQL ou IDENTITY no SQL Server.*
+>*usada quando o banco de dados suporta colunas autoincrementais, como AUTO_INCREMENT no MySQL ou IDENTITY no SQL Server.*
 - @GeneratedValue(GenerationType.UUID):
->*Indica que o valor do identificador único da entidade será gerado pelo provedor de persistência usando a estratégia UUID.*
+>*indica que o valor do identificador único da entidade será gerado pelo provedor de persistência usando a estratégia UUID.*
 - @GeneratedValue(GenerationType.TABLE):
->*Utiliza uma tabela especial no banco de dados para gerar os valores dos identificadores. É necessário adicionar a anotação @TableGenerator para configurar a tabela.*
+>*utiliza uma tabela especial no banco de dados para gerar os valores dos identificadores. É necessário adicionar a anotação @TableGenerator para configurar a tabela.*
 - @GetMapping:
->*Mapeia solicitações HTTP GET para métodos manipuladores específicos.*
+>*mapeia solicitações HTTP GET para métodos manipuladores específicos.*
 - @Getter:
->*Cria automaticamente os métodos getter para todos os atributos da classe usando o Lombok.*
+>*cria automaticamente os métodos getter para todos os atributos da classe usando o Lombok.*
 
 <br>
 
 ## 📜 I
 
 - @Id:
->*Especifica o identificador da entidade. Uma entidade sempre deve ter um atributo identificador.*
+>*especifica o identificador da entidade. Uma entidade sempre deve ter um atributo identificador.*
 - @InjectMocks:
->*Cria e injeta instâncias simuladas para serem usadas em testes com o Mockito.*
+>*cria e injeta instâncias simuladas para serem usadas em testes com o Mockito.*
 
 <br>
 
 ## 📜 J
 
 - @JsonAlias:
->*Mapeia apelidos alternativos para os campos recebidos em JSON.*
+>*mapeia apelidos alternativos para os campos recebidos em JSON.*
 - @JsonFormat(pattern = "dd/MM/yyyy HH:mm"):
->*Especifica o formato esperado para a data/hora ao serializar ou desserializar em JSON.*
+>*especifica o formato esperado para a data/hora ao serializar ou desserializar em JSON.*
 - @JsonInclude(Include.NON_NULL):
->*Inclui apenas as propriedades não nulas ao serializar em JSON.*
+>*inclui apenas as propriedades não nulas ao serializar em JSON.*
 - @JsonProperty(access = READ_ONLY):
->*Indica que o parâmetro é somente leitura.*
+>*indica que o parâmetro é somente leitura.*
 - @JsonIgnore:
->*Marca uma propriedade para ser ignorada durante a serialização/desserialização JSON no nível do campo.*
+>*marca uma propriedade para ser ignorada durante a serialização/desserialização JSON no nível do campo.*
 - @JsonIgnoreProperties:
->*Marca uma propriedade ou um grupo de propriedades para serem ignoradas durante a serialização/desserialização JSON.*
+>*marca uma propriedade ou um grupo de propriedades para serem ignoradas durante a serialização/desserialização JSON.*
 - @JoinColumn:
->*Define o mapeamento físico no lado proprietário em um relacionamento um-para-muitos/muitos-para-um.*
+>*define o mapeamento físico no lado proprietário em um relacionamento um-para-muitos/muitos-para-um.*
 - @JoinTable:
->*Define o nome de uma tabela intermediária em um relacionamento muitos-para-muitos.*
+>*define o nome de uma tabela intermediária em um relacionamento muitos-para-muitos.*
 
 <br>
 
 ## 📜 L
 
 - @LastModifiedDate:
->*Utilizada para rastrear quando a entidade foi modificada pela última vez.*
+>*utilizada para rastrear quando a entidade foi modificada pela última vez.*
 
 <br>
 
 ## 📜 M
 
 - @Min:
->*Usada para aplicar validações de valor mínimo a propriedades de um objeto.*
+>*usada para aplicar validações de valor mínimo a propriedades de um objeto.*
 - @Modifying:
->*Informa ao Spring Data que a consulta anotada com @Query é uma operação de escrita (atualização, exclusão, etc.) e não uma consulta de leitura.*
+>*informa ao Spring Data que a consulta anotada com @Query é uma operação de escrita (atualização, exclusão, etc.) e não uma consulta de leitura.*
 - @Modifying(clearAutomatically = true):
 >*indica ao Spring Data JPA que a consulta resultará em uma modificação no banco de dados e que o contexto de persistência deve ser limpo automaticamente após a execução da consulta.*
 - @Mock:
->*Cria um objeto simulado (mock) usado para testes com o Mockito.*
+>*cria um objeto simulado (mock) usado para testes com o Mockito.*
 - @MockBean:
->*Cria um objeto simulado (mock) de uma classe ou interface e o adiciona ao contexto de aplicação para uso em testes.*
+>*cria um objeto simulado (mock) de uma classe ou interface e o adiciona ao contexto de aplicação para uso em testes.*
 - @ManyToOne:
->*Especifica um relacionamento de banco de dados muitos-para-um.*
+>*especifica um relacionamento de banco de dados muitos-para-um.*
 - @ManyToMany:
->*Especifica um relacionamento de banco de dados muitos-para-muitos, onde muitos registros de uma entidade estão relacionados com muitos registros de outra entidade.*
+>*especifica um relacionamento de banco de dados muitos-para-muitos, onde muitos registros de uma entidade estão relacionados com muitos registros de outra entidade.*
 - @MappedSuperclass:
->*Usada em classes que contêm campos e métodos que devem ser herdados por entidades filhas.*
+>*usada em classes que contêm campos e métodos que devem ser herdados por entidades filhas.*
 
 <br>
 
 ## 📜 N
 
 - @NotBlank:
->*Valida que um atributo do tipo String não pode ser nulo e nem vazio.*
+>*valida que um atributo do tipo String não pode ser nulo e nem vazio.*
 - @NotNull:
->*Checa se o valor anotado não é nulo (null).*
+>*checa se o valor anotado não é nulo (null).*
 - @NoArgsConstructor:
->*Gera um construtor sem parâmetros automaticamente.*
+>*gera um construtor sem parâmetros automaticamente.*
 - @NotEmpty:
->*Valida que a propriedade não é nula nem vazia. Pode ser utilizada com String, Collection, Map ou array.*
+>*valida que a propriedade não é nula nem vazia. Pode ser utilizada com String, Collection, Map ou array.*
 
 <br>
 
 ## 📜 O
 
 - @Order:
->*Define a ordem de execução de um componente ou método dentro de um sistema.*
+>*define a ordem de execução de um componente ou método dentro de um sistema.*
 - @OneToMany:
->*Especifica um relacionamento de banco de dados um-para-muitos.*
+>*especifica um relacionamento de banco de dados um-para-muitos.*
 - @OneToOne:
->*Especifica um relacionamento de banco de dados um-para-um.*
+>*especifica um relacionamento de banco de dados um-para-um.*
 
 <br>
 
 ## 📜 P
 
 - @PathVariable:
->*Indica que o valor da variável virá de uma informação presente na rota.*
+>*indica que o valor da variável virá de uma informação presente na rota.*
 - @PageableDefault:
->*Permite informar parâmetros padrão de paginação e ordenação.*
+>*permite informar parâmetros padrão de paginação e ordenação.*
 - @Param:
->*Indica que o parâmetro é um parâmetro de um método.*
+>*indica que o parâmetro é um parâmetro de um método.*
 - @PatchMapping:
->*Mapeia solicitações HTTP PATCH para métodos manipuladores específicos.*
+>*mapeia solicitações HTTP PATCH para métodos manipuladores específicos.*
 - @Pattern:
->*Checa se a propriedade obedece a uma expressão regular.*
+>*checa se a propriedade obedece a uma expressão regular.*
 - @Past:
->*Valida se o valor da data está no passado.*
+>*valida se o valor da data está no passado.*
 - @PostMapping:
->*Mapeia solicitações HTTP POST para métodos manipuladores específicos.*
+>*mapeia solicitações HTTP POST para métodos manipuladores específicos.*
 - @Positive:
->*Valida se o valor numérico passado é positivo.*
+>*valida se o valor numérico passado é positivo.*
 - @PutMapping:
->*Mapeia solicitações HTTP PUT para métodos manipuladores específicos.*
+>*mapeia solicitações HTTP PUT para métodos manipuladores específicos.*
 - @PreAuthorize:
->*Verifica a expressão dada antes de executar o método.*
+>*verifica a expressão dada antes de executar o método.*
 - @Primary:
->*Usada quando existem dois métodos anotados com @Bean que retornam o mesmo tipo de objeto. Indica qual deles será injetado por padrão quando for solicitado.*
+>*usada quando existem dois métodos anotados com @Bean que retornam o mesmo tipo de objeto. Indica qual deles será injetado por padrão quando for solicitado.*
 - @Profile:
->*Indica em qual perfil (profile) o bean deve ser carregado.*
+>*indica em qual perfil (profile) o bean deve ser carregado.*
 
 <br>
 
 ## 📜 Q
 
 - @Query:
->*Permite criar instruções SQL personalizadas e expor essas instruções como métodos DAO.*
+>*permite criar instruções SQL personalizadas e expor essas instruções como métodos DAO.*
 - @Qualifier:
->*Usada para especificar qual bean deve ser injetado em um componente Spring quando há ambiguidade.*
+>*usada para especificar qual bean deve ser injetado em um componente Spring quando há ambiguidade.*
 
 <br>
 
 ## 📜 R
 
 - @RestController:
->*Marca a classe como um controlador no qual cada método retorna um objeto de domínio em vez de uma visão.*
+>*marca a classe como um controlador no qual cada método retorna um objeto de domínio em vez de uma visão.*
 - @RestControllerAdvice:
->*Torna uma classe um componente especializado em tratar exceções e o retorno dos métodos dessa classe deve ser inserido no corpo da resposta HTTP e convertido para JSON.*
+>*torna uma classe um componente especializado em tratar exceções e o retorno dos métodos dessa classe deve ser inserido no corpo da resposta HTTP e convertido para JSON.*
 - @Repository:
->*Define uma classe como pertencente à camada de persistência (repository).*
+>*define uma classe como pertencente à camada de persistência (repository).*
 - @RequestBody:
->*Indica que o valor do objeto virá do corpo da requisição.*
+>*indica que o valor do objeto virá do corpo da requisição.*
 - @RequestMapping:
->*Mapeia solicitações da web para classes manipuladoras específicas e métodos manipuladores.*
+>*mapeia solicitações da web para classes manipuladoras específicas e métodos manipuladores.*
 - @RequestParam:
->*Mapeia os parâmetros HTTP para argumentos de métodos.*
+>*mapeia os parâmetros HTTP para argumentos de métodos.*
 - @Required:
 >*usada para marcar uma propriedade de bean como obrigatória, exigindo que ela seja definida por meio de injeção de dependência, podendo causar uma exceção de configuração se não for configurada.*
 - @RequiredArgsConstructor:
->*Cria um construtor com todos os atributos finais da classe automaticamente.*
+>*cria um construtor com todos os atributos finais da classe automaticamente.*
 - @ResponseBody:
->*Transforma um objeto Java retornado pelo controller em uma representação de recurso solicitada por um cliente REST.*
+>*transforma um objeto Java retornado pelo controller em uma representação de recurso solicitada por um cliente REST.*
 - @ResponseStatus(HttpStatus.OK):
->*Indica que quando a requisição é bem-sucedida, o código de status HTTP retornado deve ser "200 OK".*
+>*indica que quando a requisição é bem-sucedida, o código de status HTTP retornado deve ser "200 OK".*
 - @ResponseStatus(HttpStatus.CREATED):
->*Retorna um status code que indica que algum recurso foi criado na aplicação.*
+>*retorna um status code que indica que algum recurso foi criado na aplicação.*
 - @ResponseStatus(HttpStatus.NO_CONTENT):
->*Retorna um status code que indica que a solicitação HTTP foi concluída com êxito e não há corpo de mensagem.*
+>*retorna um status code que indica que a solicitação HTTP foi concluída com êxito e não há corpo de mensagem.*
 
 <br>
 
 ## 📜 S
 
 - @Service:
->*Marca uma classe Java como um serviço que executa alguma lógica de negócio.*
+>*marca uma classe Java como um serviço que executa alguma lógica de negócio.*
 - @SequenceGenerator:
->*Usada para especificar a sequência de banco de dados usada pelo gerador de identificadores da entidade atualmente anotada.*
+>*usada para especificar a sequência de banco de dados usada pelo gerador de identificadores da entidade atualmente anotada.*
 - @Setter:
->*Cria métodos de configuração (setters) para todos os atributos da classe automaticamente usando o Lombok.*
+>*cria métodos de configuração (setters) para todos os atributos da classe automaticamente usando o Lombok.*
 - @Size:
->*Verifica se a quantidade de elementos está entre um tamanho mínimo e máximo especificado, aplicável a tipos como Strings, Collections, Maps e arrays.*
+>*verifica se a quantidade de elementos está entre um tamanho mínimo e máximo especificado, aplicável a tipos como Strings, Collections, Maps e arrays.*
 - @Spy:
->*Cria um "espião" de um objeto, permitindo a verificação de interações com o objeto durante testes.*
+>*cria um "espião" de um objeto, permitindo a verificação de interações com o objeto durante testes.*
 - @SecurityRequirement(name = "bearer-key"):
->*Especifica um requisito de segurança (como autenticação do tipo Bearer token) para uma operação.*
+>*especifica um requisito de segurança (como autenticação do tipo Bearer token) para uma operação.*
 - @SpringBootTest:
->*Cria o contexto da aplicação Spring para fins de teste, permitindo a injeção de dependências e outras funcionalidades do framework.*
+>*cria o contexto da aplicação Spring para fins de teste, permitindo a injeção de dependências e outras funcionalidades do framework.*
 - @SpringBootApplication:
->*Indica que a classe principal é uma aplicação Spring Boot.*
+>*indica que a classe principal é uma aplicação Spring Boot.*
+- @StepScope:
+>*usada para indicar que um bean deve ser criado ou obtido em tempo de execução para cada execução de uma etapa (step) em um job de lote.*
 
 <br>
 
 ## 📜 T
 
 - @Table:
->*Especifica o nome da tabela principal associada à entidade anotada atualmente.*
+>*especifica o nome da tabela principal associada à entidade anotada atualmente.*
 - @Test:
->*Anotação que define um método como um teste.*
+>*define um método como um teste.*
 - @TestMethodOrder(MethodOrderer.OrderAnnotation.class):
->*Executa os testes em ordem especificada pela anotação @Order().*
+>*executa os testes em ordem especificada pela anotação @Order().*
 - @TestMethodOrder(MethodOrderer.MethodName.class):
->*Executa os testes em ordem alfabética pelo nome do método.*
+>*executa os testes em ordem alfabética pelo nome do método.*
 - @TestMethodOrder(MethodOrderer.Random.class):
->*Executa os testes em ordem aleatória.*
+>*executa os testes em ordem aleatória.*
 - @TestMethodOrder(MethodOrderer.DisplayName.class):
->*Executa os testes em ordem especificada pela anotação @DisplayName().*
+>*executa os testes em ordem especificada pela anotação @DisplayName().*
 - @Transactional:
->*Utilizada nos métodos que requerem transações, garantindo que as operações sejam executadas atomicamente.*
+>*utilizada nos métodos que requerem transações, garantindo que as operações sejam executadas atomicamente.*
 - @Transient:
->*Indica que um campo não deve ser persistido na base de dados.*
+>*indica que um campo não deve ser persistido na base de dados.*
 
 <br>
 
 ## 📜 V
 
 - @Valid:
->*Indica que o valor do objeto virá do corpo da requisição e precisa ser validado de acordo com as regras de validação definidas.*
+>*indica que o valor do objeto virá do corpo da requisição e precisa ser validado de acordo com as regras de validação definidas.*
 - @Value:
->*Fornece uma maneira de injetar valores de propriedades em componentes.*
+>*fornece uma maneira de injetar valores de propriedades em componentes.*
 
 <br>
 
 ## 📜 W
 
 - @WithMockUser:
->*Permite a execução de testes usando um usuário fictício autenticado.*
+>*permite a execução de testes usando um usuário fictício autenticado.*
 
 <br>
 
