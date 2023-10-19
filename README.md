@@ -308,6 +308,8 @@
 
 - @Query:
 >*Permite criar instruções SQL personalizadas e expor essas instruções como métodos DAO.*
+- @Qualifier:
+>*Usada para especificar qual bean deve ser injetado em um componente Spring quando há ambiguidade.*
 
 <br>
 
