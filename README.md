@@ -78,6 +78,8 @@
 >*especifica o mapeamento entre um atributo de entidade básico e a coluna correspondente na tabela de banco de dados.*
 - @Component:
 >*é um estereótipo genérico para qualquer componente gerenciado pelo Spring.*
+- @ComponentScan:
+>*instrui o Spring a buscar classes anotadas com @Configuration e outras anotações de componentes em um pacote para registrar e gerenciar beans no contexto de aplicação.*
 - @Configuration:
 >*indica que a classe é uma classe de configuração do Spring que define beans e configurações adicionais.*
 - @ConfigurationProperties:
