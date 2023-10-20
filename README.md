@@ -291,6 +291,8 @@
 >*checa se a propriedade obedece a uma expressão regular.*
 - @Past:
 >*valida se o valor da data está no passado.*
+- @Payload:
+>*usada para indicar que o parâmetro do método em que está anexada deve ser vinculado ao corpo da mensagem recebida, permitindo o acesso direto ao conteúdo da mensagem.*
 - @PostMapping:
 >*mapeia solicitações HTTP POST para métodos manipuladores específicos.*
 - @Positive:
@@ -317,6 +319,8 @@
 
 ## 📜 R
 
+- @RabbitListener:
+>*usada para marcar métodos que desejam ouvir mensagens de uma fila RabbitMQ, permitindo a configuração automática de um consumidor para processar essas mensagens quando são recebidas.*
 - @RestController:
 >*marca a classe como um controlador no qual cada método retorna um objeto de domínio em vez de uma visão.*
 - @RestControllerAdvice:
