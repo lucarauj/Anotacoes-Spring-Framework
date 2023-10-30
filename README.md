@@ -59,6 +59,8 @@
 >*indica que o método será executado antes de todos os testes em uma classe de teste.*
 - @BeforeEach:
 >*indica que o método será executado antes de cada teste em uma classe de teste.*
+- @Builder:
+>*usada para gerar automaticamente métodos de construção de objetos em classes.*
 
 <br>
 
