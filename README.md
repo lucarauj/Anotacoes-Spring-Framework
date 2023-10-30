@@ -257,10 +257,12 @@
 
 ## 📜 N
 
+- @NonNull:
+>*gera verificações de nulos em tempo de compilação.*
 - @NotBlank:
 >*valida que um atributo do tipo String não pode ser nulo e nem vazio.*
 - @NotNull:
->*checa se o valor anotado não é nulo (null).*
+>*checa se o valor anotado não é nulo (null) em tempo de execução.*
 - @NoArgsConstructor:
 >*gera um construtor sem parâmetros automaticamente.*
 - @NotEmpty:
