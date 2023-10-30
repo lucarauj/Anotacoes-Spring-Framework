@@ -201,6 +201,8 @@
 
 - @Id:
 >*especifica o identificador da entidade. Uma entidade sempre deve ter um atributo identificador.*
+- @Inject:
+>*usada para solicitar que o contêiner do Spring injete dependências em um campo, construtor ou método de um componente gerenciado pelo Spring.*
 - @InjectMocks:
 >*cria e injeta instâncias simuladas para serem usadas em testes com o Mockito.*
 
