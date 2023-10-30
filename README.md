@@ -278,6 +278,8 @@
 >*especifica um relacionamento de banco de dados um-para-muitos.*
 - @OneToOne:
 >*especifica um relacionamento de banco de dados um-para-um.*
+- @Override:
+>*indica que um método em uma classe está substituindo um método da classe pai (superclasse) com o mesmo nome e assinatura.*
 
 <br>
 
