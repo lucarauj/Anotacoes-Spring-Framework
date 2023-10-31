@@ -366,6 +366,8 @@
 >*cria métodos de configuração (setters) para todos os atributos da classe automaticamente usando o Lombok.*
 - @Size:
 >*verifica se a quantidade de elementos está entre um tamanho mínimo e máximo especificado, aplicável a tipos como Strings, Collections, Maps e arrays.*
+- @Slf4j:
+>*gera automaticamente um campo de logger privado e estático na classe com base no nome da classe em que é aplicada.*
 - @Spy:
 >*cria um "espião" de um objeto, permitindo a verificação de interações com o objeto durante testes.*
 - @SecurityRequirement(name = "bearer-key"):
