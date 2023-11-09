@@ -1,6 +1,6 @@
 [![NPM](https://img.shields.io/npm/l/react)](https://github.com/lucarauj/Anotacoes-Spring-Framework/blob/main/LICENSE)
 
-<h1 align="center">Anotações Spring Framework</h1>
+<h1 align="center">Anotações Java - Spring</h1>
 
 <p align="center"><img width="400px" src="https://github.com/lucarauj/assets/blob/main/Spring.png" /></p>
 
@@ -376,6 +376,8 @@
 >*cria o contexto da aplicação Spring para fins de teste, permitindo a injeção de dependências e outras funcionalidades do framework.*
 - @SpringBootApplication:
 >*indica que a classe principal é uma aplicação Spring Boot.*
+- @SuppressWarnings("unchecked"):
+>*usada para suprimir avisos do compilador relacionados a operações de conversão não verificadas.*
 - @StepScope:
 >*usada para indicar que um bean deve ser criado ou obtido em tempo de execução para cada execução de uma etapa (step) em um job de lote.*
 
