@@ -173,6 +173,8 @@
 
 - @FeignClient:
 >*injeta o cliente no contexto do Spring para facilitar a comunicação com serviços HTTP.*
+- @FunctionalInterface:
+>*usada para indicar que uma interface tem apenas um método abstrato.*
 - @Future:
 >*define que a variável só pode receber uma data futura.*
 
