@@ -380,6 +380,8 @@
 >*indica que a classe principal é uma aplicação Spring Boot.*
 - @SuppressWarnings("unchecked"):
 >*usada para suprimir avisos do compilador relacionados a operações de conversão não verificadas.*
+- @Scope:
+>*permite especificar se um bean deve ser único em todo o contexto da aplicação (singleton), se deve ser criado uma vez por requisição (request), uma vez por sessão (session), ou se deve ser um novo bean a cada vez que for injetado (prototype).*
 - @StepScope:
 >*usada para indicar que um bean deve ser criado ou obtido em tempo de execução para cada execução de uma etapa (step) em um job de lote.*
 
