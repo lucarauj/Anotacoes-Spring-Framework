@@ -48,6 +48,8 @@
 >*injeta o objeto MockMvc no contexto da aplicação para testes de integração.*
 - @AutoConfigureJsonTesters:
 >*habilita e configura automaticamente os testadores de JSON para os testes.*
+- @AssertTrue:
+>*indica que o valor booleano que está sendo testado deve ser verdadeiro para que o teste seja considerado bem-sucedido.*
 
 <br>
 
