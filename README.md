@@ -307,6 +307,8 @@
 >*checa se a propriedade obedece a uma expressão regular.*
 - @Past:
 >*valida se o valor da data está no passado.*
+- @PastOrPresent:
+>*usada para validar que uma data ou instante no tempo é no passado ou no presente.*
 - @Payload:
 >*usada para indicar que o parâmetro do método em que está anexada deve ser vinculado ao corpo da mensagem recebida, permitindo o acesso direto ao conteúdo da mensagem.*
 - @PostMapping:
