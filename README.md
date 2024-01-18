@@ -263,6 +263,8 @@
 
 ## 📜 N
 
+- @Negative:
+>*utilizada para validar que um valor numérico é negativo.*
 - @NonNull:
 >*gera verificações de nulos em tempo de compilação.*
 - @NotBlank:
