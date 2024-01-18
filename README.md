@@ -265,6 +265,8 @@
 
 - @Negative:
 >*utilizada para validar que um valor numérico é negativo.*
+- @NegativeOrZero:
+>*empregada para validar que um valor numérico é negativo ou zero.*
 - @NonNull:
 >*gera verificações de nulos em tempo de compilação.*
 - @NotBlank:
