@@ -309,6 +309,8 @@
 >*mapeia solicitações HTTP POST para métodos manipuladores específicos.*
 - @Positive:
 >*valida se o valor numérico passado é positivo.*
+- @PositiveOrZero:
+>*usada para validar que um valor numérico é positivo ou zero..*
 - @PutMapping:
 >*mapeia solicitações HTTP PUT para métodos manipuladores específicos.*
 - @PreAuthorize:
