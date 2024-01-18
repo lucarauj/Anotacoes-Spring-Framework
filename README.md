@@ -179,6 +179,8 @@
 >*usada para indicar que uma interface tem apenas um método abstrato.*
 - @Future:
 >*define que a variável só pode receber uma data futura.*
+- @FutureOrPresent:
+>*empregada para validar que uma data ou instante no tempo está no futuro ou no presente.*
 
 <br>
 
