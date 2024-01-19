@@ -415,6 +415,8 @@
 >*executa os testes em ordem especificada pela anotação @DisplayName().*
 - @ToString:
 >*gera uma implementação do método toString.*
+- @ToString.Exclude:
+>*exclui um campo específico da geração automática do método toString.*
 - @Transactional:
 >*utilizada nos métodos que requerem transações, garantindo que as operações sejam executadas atomicamente.*
 - @Transient:
