@@ -313,6 +313,8 @@
 >*usada para validar que uma data ou instante no tempo é no passado ou no presente.*
 - @Payload:
 >*usada para indicar que o parâmetro do método em que está anexada deve ser vinculado ao corpo da mensagem recebida, permitindo o acesso direto ao conteúdo da mensagem.*
+- @PostConstruct:
+>*usada para executar uma determinada método após a inicialização dos beans e antes de qualquer ação por parte do usuário.*
 - @PostMapping:
 >*mapeia solicitações HTTP POST para métodos manipuladores específicos.*
 - @Positive:
