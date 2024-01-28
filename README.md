@@ -314,7 +314,7 @@
 - @Payload:
 >*usada para indicar que o parâmetro do método em que está anexada deve ser vinculado ao corpo da mensagem recebida, permitindo o acesso direto ao conteúdo da mensagem.*
 - @PostConstruct:
->*usada para executar uma determinada método após a inicialização dos beans e antes de qualquer ação por parte do usuário.*
+>*usada para executar uma determinada ação (método) após a inicialização dos beans e antes de qualquer ação por parte do usuário.*
 - @PostMapping:
 >*mapeia solicitações HTTP POST para métodos manipuladores específicos.*
 - @Positive:
