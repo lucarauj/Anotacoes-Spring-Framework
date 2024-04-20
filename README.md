@@ -42,6 +42,8 @@
 >*indica que o método será executado depois de cada teste em uma classe de teste.*
 - @AllArgsConstructor:
 >*gera automaticamente um construtor com todos os atributos da classe.*
+- @Async:
+>*executa um método de forma assíncrona.*
 - @Autowired:
 >*delega ao Spring a injeção de dependência e inicialização do objeto.*
 - @AutoConfigureMockMvc:
@@ -130,6 +132,8 @@
 >*especifica que um determinado atributo de entidade representa um tipo incorporável.*
 - @EmbeddedId:
 >*especifica que o identificador de entidade é um tipo incorporável.*
+- @EnableAsync
+>*habilita o uso do @Async na aplicação.*
 - @EnableFeignClients:
 >*habilita o uso do Feign na aplicação.*
 - @EnableCaching:
