@@ -331,6 +331,8 @@
 >*verifica a expressão dada antes de executar o método.*
 - @PrePersist:
 >*especifica um método de callback que é acionado antes que uma entidade seja persistida.*
+- @PreUpdate:
+>*especifica um método de callback que é acionado antes que uma entidade seja atualizada.*
 - @Primary:
 >*usada quando existem dois métodos anotados com @Bean que retornam o mesmo tipo de objeto. Indica qual deles será injetado por padrão quando for solicitado.*
 - @Profile:
